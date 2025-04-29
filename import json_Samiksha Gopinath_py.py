@@ -3,11 +3,6 @@ from abc import ABC, abstractmethod
 from datetime import datetime
 import unittest
 
-
-# ====================
-# OOP IMPLEMENTATION
-# ====================
-
 class Expense(ABC):
     def __init__(self, amount, provider, description=""):
         self._amount = amount
@@ -28,10 +23,6 @@ class CloudExpense(Expense):
     
     def calculate_tax(self):
         return self.amount * self.TAX_RATES.get(self.provider, 0.05)
-
-# ====================
-# DESIGN PATTERNS
-# ====================
 
 class Database:
     _instance = None
@@ -60,7 +51,6 @@ class ReportGenerator:
     def generate(self, expenses):
         return self._strategy(expenses)
 
-# Strategy functions
 def text_report(expenses):
     report = ["=== EXPENSE REPORT ==="]
     for e in expenses:
@@ -78,10 +68,6 @@ def csv_report(expenses):
             f"{e['tax']:.2f},\"{e['description']}\""
         )
     return "\n".join(report)
-
-# ====================
-# MAIN APPLICATION
-# ====================
 
 class ExpenseTracker:
     def __init__(self):
@@ -148,10 +134,6 @@ class ExpenseTracker:
         generator = ReportGenerator(strategies[format])
         return generator.generate(self.expenses)
 
-# ====================
-# TESTING
-# ====================
-
 class TestExpenseTracker(unittest.TestCase):
     def setUp(self):
         self.tracker = ExpenseTracker()
@@ -169,10 +151,6 @@ class TestExpenseTracker(unittest.TestCase):
         db1 = Database()
         db2 = Database()
         self.assertIs(db1, db2)
-
-# ====================
-# CLI INTERFACE
-# ====================
 
 def main():
     tracker = ExpenseTracker()
