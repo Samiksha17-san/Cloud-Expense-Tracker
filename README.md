@@ -97,14 +97,14 @@
 
 * **Tools and environment:**
     * **Programming Language:** Python 3.x
-    * **IDE/Text Editor:** (Specify your IDE, e.g., VS Code, PyCharm, Sublime Text)
-    * **Version Control:** (If used, e.g., Git, GitHub)
+    * **IDE/Text Editor:** VS Code
+    * **Version Control:** GitHub
     * **Libraries:**
         * `json`: For saving and loading expense data in JSON format.
         * `abc`: For creating abstract base classes (`Expense`).
         * `datetime`: For handling expense dates.
         * `unittest`: For writing and running unit tests.
-        * `requests`: (For the bank import feature, if used) To make HTTP requests to the Nordigen API.
+        * `requests`: (For the bank import feature) To make HTTP requests to the Nordigen API.
 
 * **Steps followed during development:**
     1.  **Planning and Design:** Defined the core functionalities and the object-oriented structure of the application, including identifying the necessary classes and their responsibilities.
@@ -190,7 +190,7 @@
 ## 7. Conclusion and Future Work
 
 * **Summary of achievements:**
-    The Cloud Expense Tracker application successfully实现了 (achieved) the core objectives of allowing users to add, track, and report cloud expenses. It demonstrates the application of object-oriented programming principles to create a modular and maintainable codebase. The application supports tax calculation for different cloud providers and provides output in both text and CSV formats. Basic data persistence using JSON files has also been implemented, along with unit tests for key functionalities.
+    The Cloud Expense Tracker application successfully (achieved) the core objectives of allowing users to add, track, and report cloud expenses. It demonstrates the application of object-oriented programming principles to create a modular and maintainable codebase. The application supports tax calculation for different cloud providers and provides output in both text and CSV formats. Basic data persistence using JSON files has also been implemented, along with unit tests for key functionalities.
 
 * **Recommendations for future improvements:**
     * **Enhanced User Interface:** Develop a more user-friendly interface, potentially using a graphical user interface (GUI) or a web-based interface.
