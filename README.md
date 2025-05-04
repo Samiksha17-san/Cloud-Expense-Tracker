@@ -190,4 +190,4 @@
 ## 7. Conclusion 
 
 
-    The Cloud Expense Tracker application successfully (achieved) the core objectives of allowing users to add, track, and report cloud expenses. It demonstrates the application of object-oriented programming principles to create a modular and maintainable codebase. The application supports tax calculation for different cloud providers and provides output in both text and CSV formats. Basic data persistence using JSON files has also been implemented, along with unit tests for key functionalities.
+    The Cloud Expense Tracker application successfully achieved the core objectives of allowing users to add, track, and report cloud expenses. It demonstrates the application of object-oriented programming principles to create a modular and maintainable codebase. The application supports tax calculation for different cloud providers and provides output in both text and CSV formats. Basic data persistence using JSON files has also been implemented, along with unit tests for key functionalities.
