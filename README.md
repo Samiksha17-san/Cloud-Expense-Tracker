@@ -187,17 +187,7 @@
     ```
     All implemented unit tests passed successfully. During development, minor issues related to data formatting and tax calculation logic were identified and resolved through debugging and further testing. For instance, ensuring the tax was rounded to two decimal places for reporting.
 
-## 7. Conclusion and Future Work
+## 7. Conclusion 
 
 * **Summary of achievements:**
     The Cloud Expense Tracker application successfully (achieved) the core objectives of allowing users to add, track, and report cloud expenses. It demonstrates the application of object-oriented programming principles to create a modular and maintainable codebase. The application supports tax calculation for different cloud providers and provides output in both text and CSV formats. Basic data persistence using JSON files has also been implemented, along with unit tests for key functionalities.
-
-* **Recommendations for future improvements:**
-    * **Enhanced User Interface:** Develop a more user-friendly interface, potentially using a graphical user interface (GUI) or a web-based interface.
-    * **More Robust Bank Integration:** Fully implement and test the bank transaction import feature, handling different bank API responses and data formats more effectively. This would involve obtaining a valid Nordigen API key and requisition ID for testing.
-    * **Expense Categorization:** Allow users to categorize expenses beyond just the provider (e.g., infrastructure, software, services).
-    * **Reporting Enhancements:** Implement more advanced reporting features, such as filtering expenses by date range, provider, or category, and generating summary reports or charts.
-    * **Data Validation:** Add input validation to prevent errors, such as ensuring amounts are numeric and providers are from a predefined list.
-    * **Error Handling:** Implement more comprehensive error handling for file operations and API requests.
-    * **Configuration:** Externalize configuration such as tax rates and the data file path.
-    * **More Unit Tests:** Add more unit tests to cover a wider range of functionalities and edge cases.
