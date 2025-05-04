@@ -1,4 +1,4 @@
-# Coursework Report: Object-Oriented Programming - Python Expense Tracker App
+# Coursework Report: Object-Oriented Programming - Python Cloud Expense Tracker App
 
 ## 1. Introduction
 
@@ -131,7 +131,6 @@
     * Basic unit testing of core functionalities.
 
 * **Screenshots or relevant visuals:**
-    *(Here you would include screenshots of your application running, showing the menu, adding an expense, viewing a report, and the CSV output if applicable. Since this is a command-line application, screenshots of the terminal output would be appropriate.)*
 
     **Example Screenshot 1: Main Menu**
     ```
