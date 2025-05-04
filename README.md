@@ -114,7 +114,7 @@
     5.  **Expense Tracker Class:** Developed the `ExpenseTracker` class to manage the collection of expenses, interact with the `Database`, and utilize the `ReportGenerator`.
     6.  **Command-Line Interface:** Implemented a simple text-based menu to allow users to interact with the application.
     7.  **Unit Testing:** Wrote unit tests using the `unittest` module to verify the functionality of key components, such as adding expenses and calculating taxes.
-    8.  **(Optional) Bank Data Import:** Attempted to integrate with the Nordigen API to import bank transactions (note: this may require an API key and setup).
+    8.  **(Optional) Bank Data Import:** Attempted to integrate with the Nordigen API to import bank transactions. 
     9.  **Refinement and Debugging:** Continuously tested and debugged the application to ensure it functions correctly and meets the requirements.
     10. **Documentation (this report):** Documented the design, implementation, and usage of the application.
 
@@ -177,7 +177,7 @@
     To run the tests, the user can select option '5' from the main menu, which executes `unittest.main(argv=[''], exit=False)`.
 
 * **Test results and issues resolved:**
-    *(Include the output of your unit tests here. For example:)*
+    *(For example:)*
     ```
     . . .
     ----------------------------------------------------------------------
